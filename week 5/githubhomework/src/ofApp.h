@@ -20,5 +20,13 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+    
+    
+    
+    
+    
+    
+    void drawTriangle();
+    int r, g,b,x1,x2,x3,y1,y2,y3;
 		
 };
