@@ -4,7 +4,22 @@
 // this is terricka's function
 
 
-
+void ofApp::drawCircle(){
+    float diam = 30*ofGetElapsedTimef();
+    
+    int r = ofRandom(255);
+    int g = ofRandom(255);
+    int b = ofRandom(255);
+    
+    ofSetColor(255, g, b);
+    ofDrawCircle(ofGetMouseX(), ofGetMouseY(), diam);
+    ofSetColor(r, 255, b);
+    ofNoFill();
+    ofDrawSphere(ofGetMouseX(), ofGetMouseY(), diam);
+    ofDrawLine(ofGetWidth()/2, ofGetWidth()/2, ofGetElapsedTimef(), ofGetElapsedTimef());
+    
+  // line 21
+}
 
 
 
@@ -25,38 +40,25 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // this is merillee's functions
-void ofApp::drawTriangle(){
-    int x1 = ofGetWidth()/2;
-    int y1 = ofGetHeight()/2 - 200;
-    int x2 = ofGetWidth()/2 + 200;
-    int y2 = ofGetHeight()/2 + 200;
-    int x3 = ofGetWidht()/2 -200;
-    int y3 = ofGetHeight()/2 -200;
-    float r = ofRandom(255);
-    float g = ofRandom(255);
-    float b = ofRandom(255);
-    ofSetColor(r,b,g);
-    ofTriangle(x1,y1,x2,y2,x3,y3);
-}
 
+
+
+
+
+
+
+
+
+
+
+
+               
+               
 //--------------------------------------------------------------
 void ofApp::setup(){
+    
+    ofBackground(0, 0, 0);
 
 }
 
@@ -68,8 +70,8 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
+    drawCircle();
 
-    drawTriangle();
 }
 
 //--------------------------------------------------------------
@@ -94,7 +96,8 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-
+    drawCircle();
+    
 }
 
 //--------------------------------------------------------------

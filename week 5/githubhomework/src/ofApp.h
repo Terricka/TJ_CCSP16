@@ -21,12 +21,9 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
     
+    void drawCircle();
     
-    
-    
-    
-    
-    void drawTriangle();
-    int r, g,b,x1,x2,x3,y1,y2,y3;
+    int r,g,b;
+    float diam;
 		
 };
