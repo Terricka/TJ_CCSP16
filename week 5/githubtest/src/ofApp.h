@@ -25,5 +25,9 @@ class ofApp : public ofBaseApp{
     
     int r,g,b;
     float diam;
+    
+    void pentogon(int px1, int py1, int px2, int py2, int px3, int py4, int px5, int py5);
+    
+    int px1,py1,px2,py2,px3,py3,px4,py4,px5,py5;
 		
 };

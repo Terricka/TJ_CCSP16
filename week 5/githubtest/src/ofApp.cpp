@@ -41,20 +41,20 @@ void ofApp::drawCircle(){
 
 
 // this is merillee's functions
+void ofApp::pentogon(int px1, int py1, int px2, int py2, int px3, int py4, int px5, int py5){
+    //Line 1
+    ofLine(px1, py1, px2, py2);
+    //Line 2
+    ofLine(px2, py2, px3, py3);
+    //Line 3
+    ofLine(px3, py3, px4, py4);
+    //Line 4
+    ofLine(px4, py4, px5, py5);
+    //Line 5
+    ofLine(px5, py5, px1, py1);
+}
 
 
-
-
-
-
-
-
-
-
-
-
-               
-               
 //--------------------------------------------------------------
 void ofApp::setup(){
     
@@ -71,7 +71,7 @@ void ofApp::update(){
 void ofApp::draw(){
 
     drawCircle();
-
+    pentogon(px1, py1, px2, py2, px3, py4, px5, py5);
 }
 
 //--------------------------------------------------------------
