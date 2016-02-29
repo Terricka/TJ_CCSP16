@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8DCEFBDA2BDC888ECBB96982B01005F00280CED9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CFC3464C5FA966A45584D915EAF5B09D0DFDAF2B" : 0,
+    "8DCEFBDA2BDC888ECBB96982B01005F00280CED9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F5312661-CEF1-4D11-8A57-3280A728C257",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CFC3464C5FA966A45584D915EAF5B09D0DFDAF2B" : "",
+    "8DCEFBDA2BDC888ECBB96982B01005F00280CED9" : "TJ_CCSP16\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "githubhomework",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "week 5\/githubtest\/githubhomework.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vanillabin\/TJ_CCSP16.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8DCEFBDA2BDC888ECBB96982B01005F00280CED9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nicoleyimessier\/creativeCoding_OF_S2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CFC3464C5FA966A45584D915EAF5B09D0DFDAF2B"
+    }
+  ]
+}
