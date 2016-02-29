@@ -30,6 +30,23 @@ void ofApp::drawCircle(){
 
 // this is binna's
 
+void ofApp::stripePattern() {
+    ofSetColor(ofColor::black);
+    ofSetLineWidth(2.0);
+    ofNoFill();
+    for (int i=-50; i<50; i++) {
+        ofPushMatrix();
+        ofTranslate( i*20, 0);
+        ofRotate( i*5 );
+        //ofLine( 0, -100, 0, 100);
+        ofScale( 6, 6);
+        ofTriangle( 0, 0, -50, 100, 50, 100);
+        ofPopMatrix();
+        
+    }
+    
+}
+
 
 
 
@@ -72,6 +89,14 @@ void ofApp::draw(){
 
     drawCircle();
     pentogon(px1, py1, px2, py2, px3, py4, px5, py5);
+    
+    //binna
+    ofPushMatrix();
+    ofTranslate(  ofGetWidth()/2, ofGetHeight()/2);
+    //---
+    stripePattern();
+    //---
+    ofPopMatrix();
 }
 
 //--------------------------------------------------------------
