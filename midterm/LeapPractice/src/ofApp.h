@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxLeapMotion2.h"
+//#include "Brush.h"
 
 class ofApp : public ofBaseApp{
 
@@ -27,6 +28,9 @@ class ofApp : public ofBaseApp{
     
     vector <int> fingersFound;
     ofEasyCam cam;
+    
+    int brushSize;
+    int r,g,b;
     
     
 		
